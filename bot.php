@@ -9,8 +9,8 @@ Modified @ Farzain - zFz
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = 'XlE28tTy36DaW4nGhZ60pwU1LFLVo2HyPeZHMonDAyd2MVRcvSjPc6O/CNkX9U63oPODIjIokXtUtzMFUfmMx5Ayt75zKm10R7oWmymZo0Y5eUNnIGjMR+/lbXz3QLmiGDST3UNFeGlv/T5nZ6y4IQdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = '4e116277862c33a02f94ec10eb65ce19';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
